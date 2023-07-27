@@ -1,3 +1,11 @@
+:root {
+    --bg-side-color: #002B5B;
+    --bg-head-color: #EA5455;
+    --bg-main-color: #E4DCCF;
+    --bg-secondary-color: #F9F5EB;
+    --text-primary-color: #F9F5EB;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -15,6 +23,7 @@ aside {
     background-color: aquamarine;
     grid-column: 1 / 2;
     grid-row: 1 / span 2;
+    padding: 10px 20px;
 }
 
 .logo-container {
@@ -25,6 +34,14 @@ aside {
 
 .logo-container img {
     width: 60px;
+}
+
+.dash-list {
+    margin-top: 60px;
+}
+
+.dash-list li:not(:first-child) {
+    margin-top: 10px;
 }
 
 .dash-list-icon {
