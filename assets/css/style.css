@@ -6,6 +6,19 @@
     --text-primary-color: #F9F5EB;
 }
 
+html {
+    font-size: 10px;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a, a:active
+ {
+    text-decoration: none;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -20,7 +33,8 @@ body {
 }
 
 aside {
-    background-color: aquamarine;
+    background-color: var(--bg-side-color);
+    color: var(--text-primary-color);
     grid-column: 1 / 2;
     grid-row: 1 / span 2;
     padding: 10px 20px;
@@ -32,18 +46,34 @@ aside {
     align-items: center;
 }
 
+.logo-container h1 {
+    font-size: 2rem;
+}
+
 .logo-container img {
     width: 60px;
+    filter: invert(88%) sepia(6%) saturate(1230%) hue-rotate(320deg) brightness(116%) contrast(95%);
 }
 
 .dash-list {
     margin-top: 60px;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .dash-list li:not(:first-child) {
-    margin-top: 10px;
+    margin-top: 15px;
+}
+
+.dash-list a {
+    color: var(--text-primary-color);
+}
+.dash-list span {
+    vertical-align: middle;
 }
 
 .dash-list-icon {
     width: 30px;
+    vertical-align: middle;
+    filter: invert(88%) sepia(6%) saturate(1230%) hue-rotate(320deg) brightness(116%) contrast(95%);
 }
