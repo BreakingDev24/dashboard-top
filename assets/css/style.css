@@ -3,3 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr;
+}
+
+aside {
+    background-color: aquamarine;
+    grid-column: 1 / 2;
+    grid-row: 1 / span 2;
+}
