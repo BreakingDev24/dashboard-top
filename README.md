@@ -6,7 +6,7 @@ project made for [The Odin Project](https://www.theodinproject.com/lessons/node-
 
 ![](/assets/img/other/dashboard-screen.png)
 
-##Built with
+## Built with
 
 * HTML
 * CSS
